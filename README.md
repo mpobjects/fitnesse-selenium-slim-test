@@ -1,2 +1,3 @@
 # fitnesse-selenium-slim-test
-Test target for fitnesse-selenium-slim
+
+This repository contains HTML pages targeted by the test cases of [fitnesse-selenium-slim](https://github.com/mpobjects/fitnesse-selenium-slim).
