@@ -1,0 +1,21 @@
+body {
+	color: black;
+	background: white;
+	padding: 5px;
+	margin: 60px 0 0 0;
+	font-family: sans-serif;
+}
+
+#fitnesse-selenium-slim-disclaimer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	padding: 5px;
+	text-align: center;
+	font-size: 2em;
+	border-bottom: 3px dashed #fdc300;
+	background: #eee;
+	margin-bottom: 5px;
+}
