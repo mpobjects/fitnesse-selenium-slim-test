@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Test</title>
-<link rel="stylesheet" href="style.css" />
+<title>AlertTest</title>
+<link rel="stylesheet" href="../style.css" />
 </head>
 <body>
 
@@ -43,7 +43,7 @@
 						</dl>
 					</form>
 				</td>
-				<td><img src="fitnesse-logo-large.png" alt="dummy" /></td>
+				<td><img src="../fitnesse-logo-large.png" alt="dummy" /></td>
 		</table>
 
 		<p>Morbi vel mauris vel arcu vehicula varius pharetra a nibh. Nunc scelerisque vulputate odio vitae molestie. Duis
@@ -55,11 +55,13 @@
 			efficitur ligula diam et ligula. In sit amet nulla diam. Donec a lobortis nulla.</p>
 	</div>
 
-	<!--
-  
-  Put the test content here
-  
-  -->
+	<button id="test" onclick="test()">test</button>
+
+	<script>
+		function test() {
+	        alert("I am an alert box!");
+        }
+	</script>
 
 </body>
 </html>
