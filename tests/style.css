@@ -19,3 +19,11 @@ body {
 	background: #eee;
 	margin-bottom: 5px;
 }
+
+#lipsum {
+	font-size: x-small;
+	border: 1px dotted #aaa;
+	padding: 5px;
+	margin-bottom: 10px;
+	opacity: 0.33;
+}
