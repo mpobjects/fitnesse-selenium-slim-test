@@ -1,31 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page with a large form</title>
-<link rel="stylesheet" href="style.css" />
-<style type="text/css">
-#form label {
-	clear: both;
-	display: inline-block;
-	width: 300px;
-	display: inline-block;
-}
-
-#form label input, #form label button, #form label select {
-	float: right;
-	width: 150px;
-}
-
-#form .radiolist label {
-	display: block;
-	padding-left: 150px;
-}
-
-#form .radiolist input {
-	float: none;
-	width: auto;
-}
-</style>
+<title>WindowOne</title>
+<link rel="stylesheet" href="../style.css" />
 </head>
 <body>
 
@@ -66,7 +43,7 @@
 						</dl>
 					</form>
 				</td>
-				<td><img src="fitnesse-logo-large.png" alt="dummy" /></td>
+				<td><img src="../fitnesse-logo-large.png" alt="dummy" /></td>
 		</table>
 
 		<p>Morbi vel mauris vel arcu vehicula varius pharetra a nibh. Nunc scelerisque vulputate odio vitae molestie. Duis
@@ -78,41 +55,7 @@
 			efficitur ligula diam et ligula. In sit amet nulla diam. Donec a lobortis nulla.</p>
 	</div>
 
-	<form id="form">
-		<dl>
-			<dd>
-				<label>Title <select name="ttl_select">
-						<option value="Mr">Mr</option>
-						<option value="Dr">Dr</option>
-						<option value="Mrs">Mrs</option>
-				</select></label>
-			</dd>
-			<dd class="radiolist">
-				<label><input name="ttl" value="Dr" type="radio"> Dr</label> <label><input name="ttl" value="Mr"
-					type="radio"> Mr</label> <label><input name="ttl" value="Mrs" type="radio"> Mrs</label> <label><input
-					name="ttl" value="Ms" type="radio"> Ms</label>
-			</dd>
-			<dd>
-				<label>Title <input name="01___title" /></label>
-			</dd>
-			<dd>
-				<label>First Name <input name="02frstname" /></label>
-			</dd>
-			<dd>
-				<label>Middle Initial <input name="03middle_i" /></label>
-			</dd>
-			<dd>
-				<label>Last Name <input name="04lastname" /></label>
-			</dd>
-			<dd>
-				<label>Full Name <input name="04fullname" /></label>
-			</dd>
-			<dd>
-				<label>Checkbox <input name="field6" type="checkbox" /></label>
-			</dd>
-		</dl>
-		<button type="reset">Reset</button>
-	</form>
+	<h1 id="window-two">Windows One</h1>
 
 </body>
 </html>
