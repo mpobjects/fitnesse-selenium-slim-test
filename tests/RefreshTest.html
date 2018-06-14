@@ -55,13 +55,13 @@
 			efficitur ligula diam et ligula. In sit amet nulla diam. Donec a lobortis nulla.</p>
 	</div>
 
-	<form action="" method="post" onsubmit="try {addLink();} catch(e){console.log(e)}; return false;" >
-		<input id="query" name="lst-ib" />
+	<form action="" method="post" onsubmit="try {addLink();} catch(e){console.log(e)}; return false;">
+		<input id="lst-ib" />
 	</form>
 
 	<script>
 		function addLink() {
-	        let text = document.getElementById('query');
+	        let text = document.getElementById('lst-ib');
 	        let link = document.createElement('A');
 	        link.href = "#";
 	        link.appendChild(document.createTextNode(text.value));
