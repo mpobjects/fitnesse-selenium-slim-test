@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+	<div id="fitnesse-selenium-slim-disclaimer">
+		Test targets for <a
+			href="https://github.com/mpobjects/fitnesse-selenium-slim">fitnesse-selenium-slim</a>
+		test suite.
+	</div>
+
+	<div id="lipsum">
+		<!-- Some dummy content -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			Quisque interdum aliquam lacus, a auctor sapien pulvinar ac. Vivamus
+			in pharetra dui, ac efficitur tortor. Sed sit amet tellus ut lectus
+			mattis iaculis. Vivamus eleifend cursus ligula sit amet suscipit. Nam
+			et magna eget justo dictum tincidunt. Sed quis lacinia mauris,
+			dapibus sagittis tellus. Proin elementum id mauris quis pulvinar.</p>
+
+		<table>
+			<tr>
+				<td>
+					<form action="">
+						<dl>
+							<dd>
+								<label>Dummy <input type="text" /></label>
+							<dd>
+							<dd>
+								<label>Dummy <input type="password" /></label>
+							<dd>
+							<dd>
+								<label>Dummy <input type="radio" /></label>
+							<dd>
+							<dd>
+								<label>Dummy <input type="checkbox" /></label>
+							<dd>
+							<dd>
+								<label>Dummy <input type="color" /></label>
+							<dd>
+							<dd>
+								<button type="button">Dummy</button>
+							</dd>
+						</dl>
+					</form>
+				</td>
+				<td><img src="fitnesse-logo-large.png" alt="dummy" /></td>
+		</table>
+
+		<p>Morbi vel mauris vel arcu vehicula varius pharetra a nibh. Nunc
+			scelerisque vulputate odio vitae molestie. Duis quis condimentum
+			libero, ac dignissim mauris. Maecenas fringilla vehicula urna sed
+			finibus. Nullam quis erat lectus. Phasellus id lectus a quam
+			tincidunt faucibus a ac ante. Vestibulum non odio et massa tincidunt
+			gravida non eget enim. Integer at sapien imperdiet, bibendum felis
+			pretium, interdum mi. Aenean commodo, metus eu ultricies vestibulum,
+			orci tellus vestibulum purus, quis vestibulum nisl magna vitae felis.
+			Aenean orci elit, ultricies ac nunc in, ullamcorper sagittis lectus.
+			Ut bibendum, enim congue porttitor scelerisque, elit nulla accumsan
+			massa, ornare efficitur ligula diam et ligula. In sit amet nulla
+			diam. Donec a lobortis nulla.</p>
+	</div>
+
+	<fieldset>
+		<legend>Top Button Actions</legend>
+		<button type="button" id="enablebtn"
+			onclick="testtarget1.disabled = '';">Enable</button>
+		<button type="button" id="disablebtn"
+			onclick="testtarget1.disabled = 'disabled';">Disable</button>
+		<button type="button" id="showbtn"
+			onclick="testtarget1.style.visibility = '';">Show</button>
+		<button type="button" id="hidebtn"
+			onclick="testtarget1.style.visibility = 'hidden';">Hide</button>
+	</fieldset>
+
+	<div
+		style="margin: 10px; border: 3px solid blue; padding: 10px; overflow: auto; height: 50px;">
+		<button type="button" id="testtarget1">Top Button</button>
+		<div style="height: 500px; background: ghostwhite;" id="spacer"></div>
+		<button type="button" id="testtarget2">Bottom Button</button>
+	</div>
+
+</body>
+</html>
